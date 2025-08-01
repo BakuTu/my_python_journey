@@ -16,7 +16,7 @@ def allow_booking():
 def deny_booking(reason_key):
     print(reasons[reason_key])
 
-time_slot_is_free = True
+time_slot_is_free = False
 doctor_has_no_other_appointments = False
 
 # Main logic for checking conditions for booking an appointment.
